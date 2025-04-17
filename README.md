@@ -22,9 +22,9 @@ The primary objective of this project is to validate the shopping cart functiona
 
 ## 🛠️ Technologies Used
 - **[Microsoft Playwright for .NET](https://playwright.dev/dotnet/)**: For browser automation.
-- **[NUnit](https://nunit.org/)**: As the testing framewok.
-- **.NET 8.0 SDK**: The development platfom.
-- **C#**: Programming languae.
+- **[NUnit](https://nunit.org/)**: As the testing framework.
+- **.NET 8.0 SDK**: The development platform.
+- **C#**: Programming language.
 
 ---
 
@@ -61,13 +61,13 @@ To execute all test:
 dotnet test
 ```
 
-To run a specific test cas:
+To run a specific test case:
 
 ```bash
 dotnet test --filter "Name=Cart_ShouldIncrementQty_WhenSameItemAddedTwice"
 ```
 
-To run tests with detailed console outpu:
+To run tests with detailed console output:
 
 ```bash
 dotnet test --logger:"console;verbosity=detailed"
@@ -75,9 +75,9 @@ dotnet test --logger:"console;verbosity=detailed"
 
 ---
 
-## 🧪 Test Scenaios
+## 🧪 Test Scenarios
 
-The automation suite covers the following scenrios:
+The automation suite covers the following scenarios:
 
 1. **Add Product to Cart**:
    - Navigate to the productpage.   
@@ -87,12 +87,12 @@ The automation suite covers the following scenrios:
 2. **Update Product Quantity**:
    - Navigate to the product detailpage.   
    - Increase the quantity to 2.   
-   - Add to cart and verify the quantity is updated accordngly.
+   - Add to cart and verify the quantity is updated accordingly.
 
 3. **Remove Product from Cart**:
    - Navigate to the cartpage.   
    - Remove the product from thecart.   
-   - Verify the cart is mpty.
+   - Verify the cart is empty.
 
 ---
 
