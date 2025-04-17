@@ -117,10 +117,10 @@ PlaywrightTests/
 └── README.md
 ```
 
-- **Pags/**: Contains page object models for differentpages.
-- **Test/**: Houses the test casses.
-- **Utilities/**: Generate rendom data for registration.
+- **Pages/**: Contains page object models for different pages.
+- **Test/**: Houses the test classes.
+- **Utilities/**: Generate random data for registration.
 
--  API Verification - Line no. 41 - RegistrationTests.cs
+- **API Verification** - Line no. 41 - RegistrationTests.cs
 
--   Run same Tests in Multiple Data - ProductSearchTests.cs From Line no. 16. 
+- **Run same Tests in Multiple Data** - ProductSearchTests.cs From Line no. 16. 
