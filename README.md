@@ -120,3 +120,7 @@ PlaywrightTests/
 - **Pags/**: Contains page object models for differentpages.
 - **Test/**: Houses the test casses.
 - **Utilities/**: Generate rendom data for registration.
+
+-  API Verification - Line no. 41 - RegistrationTests.cs
+
+-   Run same Tests in Multiple Data - ProductSearchTests.cs From Line no. 16. 
